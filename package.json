@@ -1,0 +1,35 @@
+{
+    "name": "react-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "start:dev": "webpack-dev-server",
+        "build": "webpack",
+        "dev:next": "next",
+        "build:next": "next build",
+        "start:next": "next start"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.4.3",
+        "@babel/core": "^7.4.3",
+        "@babel/preset-env": "^7.4.3",
+        "@babel/preset-react": "^7.0.0",
+        "babel-loader": "^8.0.5",
+        "html-webpack-plugin": "^3.2.0",
+        "html-webpack-template": "^6.2.0",
+        "webpack": "^4.29.6",
+        "webpack-cli": "^3.3.0",
+        "webpack-dev-server": "^3.2.1",
+        "bootstrap": "4.3.1",
+        "css-loader": "3.0.0",
+        "file-loader": "4.0.0",
+        "style-loader": "0.23.1",
+        "sass-loader": "7.1.0"
+    },
+    "dependencies": {
+        "next": "^8.1.0",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6"
+    }
+}
